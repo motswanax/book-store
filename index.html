@@ -13,6 +13,74 @@
     <title>Book Store</title>
 </head>
 <body>
+
+<!-- navigation -->
+<nav class="navigation">
+    <button class="navbar-toggler hamburger-menu" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </button>
+    <div class="bg-cover"></div>
+    <div class="collapse nav-content" id="myNavbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10 mx-auto">
+                    <a href="#" class="navbar-brand mt-4 d-lg-none d-block">
+                        <img src="img/book.png" alt="" width="120px">
+                    </a>
+                    <ul class="navbar-nav text-capitalize flex-lg-row flex-column nav-justified">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link m-lg-3 m-1 link-item">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link m-lg-3 m-1 link-item">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link m-lg-3 m-1 link-item">Library</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link m-lg-3 m-1 link-item">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link m-lg-3 m-1 link-item">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link m-lg-3 m-1 link-item">Content</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-10 mx-auto">
+                    <form action="" class="mt-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-append">
+                                <button type="button" class="btn">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col text-center">
+                    <h1 class="display-1 text-white">Your Chance</h1>
+                    <h3 class="text-capitalize text-light">Get each boot for $9.99</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <img src="img/book.png" alt="" width="550" class="d-lg-block d-none mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- end of navigation -->
+
 <!-- header -->
 <header class="d-flex align-items-center">
     <div class="align-self-start position-absolute">
@@ -26,7 +94,7 @@
                 <h1 class="text-light display-1 font-italic mb-5 banner-heading">We <img src="img/heart.png" alt="heart"
                                                                                          width="250px"
                                                                                          class="img-fluid"> Reading</h1>
-                <a href="#" class="btn btn-lg btn-outline-danger text-uppercase px-5">Check Out</a>
+                <a href="#" class="btn btn-lg btn-outline-light text-uppercase px-5 bg-danger">Check Out</a>
             </div>
         </div>
     </div>
@@ -217,7 +285,7 @@
         </div>
         <!-- end of title -->
         <div class="row">
-            <div class="col-lg-6 col-md-8 col-sm-10 mx-auto books">
+            <div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-lg-5 books">
                 <a href="#"><img src="img/suggested-books/book1.jpg" alt="" class="img-fluid book book-1"></a>
                 <a href="#"><img src="img/suggested-books/book2.jpg" alt="" class="img-fluid book book-2"></a>
                 <a href="#"><img src="img/suggested-books/book3.jpg" alt="" class="img-fluid book book-3"></a>
@@ -240,7 +308,7 @@
     <div class="container-fluid">
         <!-- title -->
         <div class="row">
-            <div class="col text-center py-5">
+            <div class="col text-center py-5 mt-lg-5">
                 <h1 class="text-secondary text-uppercase font-italic common-title">The most popular books of the week</h1>
             </div>
         </div>
@@ -421,7 +489,7 @@
 </footer>
 <!-- end of footer -->
 
-<script src="js/jquery-3.4.0.min.js"></script>
+<script src="js/jquery-3.3.1.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/lightbox.js"></script>
